@@ -1,0 +1,90 @@
+[2020-05-27 14:06:40,859] {settings.py:254} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=9964
+[2020-05-27 14:06:40,859] {settings.py:254} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=9965
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2020-05-27 14:06:41,603] {__init__.py:51} INFO - Using executor LocalExecutor
+[2020-05-27 14:06:41,607] {scheduler_job.py:1323} INFO - Starting the scheduler
+[2020-05-27 14:06:41,608] {scheduler_job.py:1331} INFO - Running execute loop for -1 seconds
+[2020-05-27 14:06:41,608] {scheduler_job.py:1332} INFO - Processing each file at most -1 times
+[2020-05-27 14:06:41,608] {scheduler_job.py:1335} INFO - Searching for files in /Users/atan/development/data-projects/airflow-api-spike/dags
+[2020-05-27 14:06:41,614] {scheduler_job.py:1337} INFO - There are 22 files in /Users/atan/development/data-projects/airflow-api-spike/dags
+[2020-05-27 14:06:41,684] {scheduler_job.py:1388} INFO - Resetting orphaned tasks for active dag runs
+[2020-05-27 14:06:41,705] {dag_processing.py:556} INFO - Launched DagFileProcessorManager with pid: 10073
+[2020-05-27 14:06:41,714] {settings.py:55} INFO - Configured default timezone <Timezone [UTC]>
+[2020-05-27 14:06:41,724] {settings.py:254} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=10073
+[2020-05-27 14:06:42,714] {__init__.py:51} INFO - Using executor LocalExecutor
+[2020-05-27 14:06:42,714] {dagbag.py:403} INFO - Filling up the DagBag from /Users/atan/development/data-projects/airflow-api-spike/dags
+Running the Gunicorn Server with:
+Workers: 4 sync
+Host: 0.0.0.0:8080
+Timeout: 120
+Logfiles: - -
+=================================================================            
+[2020-05-27 14:06:43,861] {settings.py:254} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=10103
+[2020-05-27 14:06:43 +0800] [10103] [INFO] Starting gunicorn 19.10.0
+[2020-05-27 14:06:43 +0800] [10103] [INFO] Listening at: http://0.0.0.0:8080 (10103)
+[2020-05-27 14:06:43 +0800] [10103] [INFO] Using worker: sync
+[2020-05-27 14:06:43 +0800] [10119] [INFO] Booting worker with pid: 10119
+[2020-05-27 14:06:43 +0800] [10121] [INFO] Booting worker with pid: 10121
+[2020-05-27 14:06:44 +0800] [10122] [INFO] Booting worker with pid: 10122
+[2020-05-27 14:06:44 +0800] [10123] [INFO] Booting worker with pid: 10123
+[2020-05-27 14:06:44,453] {__init__.py:51} INFO - Using executor LocalExecutor
+[2020-05-27 14:06:44,454] {dagbag.py:403} INFO - Filling up the DagBag from /Users/atan/development/data-projects/airflow-api-spike/dags
+[2020-05-27 14:06:44,534] {__init__.py:51} INFO - Using executor LocalExecutor
+[2020-05-27 14:06:44,535] {dagbag.py:403} INFO - Filling up the DagBag from /Users/atan/development/data-projects/airflow-api-spike/dags
+[2020-05-27 14:06:44,656] {__init__.py:51} INFO - Using executor LocalExecutor
+[2020-05-27 14:06:44,657] {dagbag.py:403} INFO - Filling up the DagBag from /Users/atan/development/data-projects/airflow-api-spike/dags
+[2020-05-27 14:06:44,733] {__init__.py:51} INFO - Using executor LocalExecutor
+[2020-05-27 14:06:44,734] {dagbag.py:403} INFO - Filling up the DagBag from /Users/atan/development/data-projects/airflow-api-spike/dags
+127.0.0.1 - - [27/May/2020:14:06:56 +0800] "GET /lifestyle HTTP/1.1" 404 3862 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:06:56 +0800] "GET /static/d3.v3.min.js HTTP/1.1" 200 0 "http://localhost:8080/lifestyle" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:03 +0800] "GET / HTTP/1.1" 302 221 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:03 +0800] "GET /admin/ HTTP/1.1" 200 115643 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:03 +0800] "GET /admin/admin/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 200 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:03 +0800] "GET /static/bootstrap-theme.css HTTP/1.1" 200 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:03 +0800] "GET /admin/admin/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 200 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:03 +0800] "GET /static/bootstrap-toggle.min.css HTTP/1.1" 304 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:03 +0800] "GET /admin/admin/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:03 +0800] "GET /static/main.css HTTP/1.1" 304 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:03 +0800] "GET /admin/admin/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:03 +0800] "GET /static/pin_100.png HTTP/1.1" 304 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:03 +0800] "GET /static/dataTables.bootstrap.css HTTP/1.1" 304 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:03 +0800] "GET /admin/admin/vendor/jquery.min.js?v=3.3.1 HTTP/1.1" 200 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:03 +0800] "GET /admin/admin/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 200 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:04 +0800] "GET /static/loading.gif HTTP/1.1" 200 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:04 +0800] "GET /admin/admin/bootstrap/bootstrap3/swatch/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 0 "http://localhost:8080/admin/admin/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:04 +0800] "GET /admin/admin/vendor/moment.min.js?v=2.22.2 HTTP/1.1" 200 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:04 +0800] "GET /static/jquery.dataTables.min.js HTTP/1.1" 200 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:04 +0800] "GET /admin/admin/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:04 +0800] "GET /admin/admin/admin/js/helpers.js?v=1.0.0 HTTP/1.1" 304 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:04 +0800] "GET /static/jqClock.min.js HTTP/1.1" 304 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:04 +0800] "GET /static/bootstrap-toggle.min.js HTTP/1.1" 304 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:04 +0800] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 304 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:04 +0800] "GET /admin/airflow/dag_stats HTTP/1.1" 200 9486 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:04 +0800] "GET /admin/airflow/blocked HTTP/1.1" 200 2 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:07:04 +0800] "GET /admin/airflow/task_stats?dag_ids=example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_http_operator,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,test_utils,tutorial HTTP/1.1" 200 27074 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+[2020-05-27 14:07:15 +0800] [10103] [INFO] Handling signal: ttin
+[2020-05-27 14:07:15 +0800] [10558] [INFO] Booting worker with pid: 10558
+[2020-05-27 14:07:15,796] {__init__.py:51} INFO - Using executor LocalExecutor
+[2020-05-27 14:07:15,796] {dagbag.py:403} INFO - Filling up the DagBag from /Users/atan/development/data-projects/airflow-api-spike/dags
+[2020-05-27 14:07:16 +0800] [10103] [INFO] Handling signal: ttou
+[2020-05-27 14:07:16 +0800] [10119] [INFO] Worker exiting (pid: 10119)
+127.0.0.1 - - [27/May/2020:14:25:08 +0800] "GET /admin/ HTTP/1.1" 200 115643 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:25:09 +0800] "GET /admin/airflow/dag_stats HTTP/1.1" 200 9486 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:25:09 +0800] "GET /admin/airflow/blocked HTTP/1.1" 200 2 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:25:09 +0800] "GET /admin/airflow/task_stats?dag_ids=example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_http_operator,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,test_utils,tutorial HTTP/1.1" 200 27074 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+127.0.0.1 - - [27/May/2020:14:25:09 +0800] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://localhost:8080/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+[2020-05-27 14:27:39 +0800] [10103] [INFO] Handling signal: term
+[2020-05-27 14:27:39 +0800] [10121] [INFO] Worker exiting (pid: 10121)
+[2020-05-27 14:27:39 +0800] [10122] [INFO] Worker exiting (pid: 10122)
+[2020-05-27 14:27:39 +0800] [10123] [INFO] Worker exiting (pid: 10123)
+[2020-05-27 14:27:39 +0800] [10558] [INFO] Worker exiting (pid: 10558)
+[2020-05-27 14:27:39 +0800] [10103] [INFO] Shutting down: Master
